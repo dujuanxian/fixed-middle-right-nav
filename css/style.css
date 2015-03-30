@@ -5,6 +5,7 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
+    font-family: helvetica neue, sans-serif;
 }
 
 nav {
@@ -28,20 +29,42 @@ nav ul li {
     -o-border-radius: 50%;
     border-radius: 50%;
     list-style: none;
-    border: 1px solid #d3e4ff;
+    background-color: #d3e4ff;
     width: 35px;
     height: 35px;
-    line-height: 38px;
+    line-height: 35px;
     text-align: center;
     margin-top: 10px;
+    font-size: 14px;
 }
 
 nav ul li:hover {
-    background-color: #d3e4ff;
+    border: 1px solid #d3e4ff;
+    background: none;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 main {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+    padding: 60px 0;
+}
+
+header, section, footer {
+    margin-bottom: 40px;
+}
+
+header h1 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+section h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+footer {
+    text-align: center;
 }

@@ -1,0 +1,47 @@
+@import "fontello.css";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    color: #3A444D;
+    margin-right: 1%;
+    display: table;
+    position: fixed;
+    right: 0;
+    height: 100%;
+}
+
+nav ul {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+nav ul li {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    list-style: none;
+    border: 1px solid #d3e4ff;
+    width: 35px;
+    height: 35px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul li:hover {
+    background-color: #d3e4ff;
+    cursor: pointer;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
